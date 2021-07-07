@@ -29,6 +29,7 @@ namespace API.Controllers
         public async Task<ActionResult<AppUser>> GetUsers(int id)
         {
             return await _context.Users.FindAsync(id);
+            
         }
 
 
